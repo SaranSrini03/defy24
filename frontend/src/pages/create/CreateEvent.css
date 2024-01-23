@@ -1,0 +1,81 @@
+:root {
+    --black: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--black);
+}
+.form-field {
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+input,textarea{
+    background-color: var(--black);
+    border: none;
+    outline: none;
+    padding: 15px;
+    width: 40rem;
+    height: 50px;
+    margin-top: 10px;
+    border-bottom: 1px solid grey;
+    resize: none;
+    color: white;
+    font-size: 15px;
+}
+.merchCheckbox{
+    position: absolute;
+    height: 20px;
+    width: 200px;
+    margin-top:50px;
+    margin-left: 2rem;
+}
+.chk{
+    
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 0em;
+    width: 20px;
+    cursor: pointer;
+}
+
+.creater{
+    margin-top: 100px;
+    position: absolute;
+    margin-left: -720px;
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 0.09s ease-in-out;
+    color: white;
+}
+.form-field2 {
+    position: absolute;
+    margin-top: -46rem;
+    margin-left: 750px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    transition: 0.09s ease-in-out;
+    padding: 10px;
+}
+.size {
+    position: absolute;
+    margin: 20px;
+}
+select{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 14rem ;
+}
+.createrc {
+    text-align: center;
+  }
+  
